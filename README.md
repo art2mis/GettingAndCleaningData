@@ -23,7 +23,5 @@ The methodology for obtaining the "tidy" dataset was as follows:
 
 There is a single R script, run_analysis.R.  It must have the unzipped data files in the working directory.
 
-TODO: Have the script download and unzip the file
-
 It creates a meansAndStds data frame and a subjectActivityAvgs data frame, and writes the subjectActivityAvgs to a file
 
