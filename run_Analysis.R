@@ -6,7 +6,8 @@ library(dplyr)
 
 # Set this to the directory to where the https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip file
 # has been unzipped
-directory <- "E:\\CourseraCollatoral\\GettingAndCleaningData\\UCI HAR Dataset"
+# directory <- "E:\\CourseraCollatoral\\GettingAndCleaningData\\UCI HAR Dataset"
+directory <- curwd()
 
 # Load the labels files
 fileName <- sprintf("%s/%s", directory, "activity_labels.txt")

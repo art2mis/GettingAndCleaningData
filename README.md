@@ -21,9 +21,9 @@ The methodology for obtaining the "tidy" dataset was as follows:
 - The columns containing the "mean" or "std" were selected from the data set
 - The data was grouped by Subject and Activity, and each column was averaged within that group
 
-There is a single R script, run_Analysis.R.  It must be edited to set the directory variable to the directory containing the unzipped data files.
+There is a single R script, run_analysis.R.  It must have the unzipped data files in the working directory.
 
 TODO: Have the script download and unzip the file
 
-It creates a meansAndStds data frame and a subjectActivityAvgs data frame
+It creates a meansAndStds data frame and a subjectActivityAvgs data frame, and writes the subjectActivityAvgs to a file
 

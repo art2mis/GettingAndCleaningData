@@ -29,7 +29,7 @@ Subject
     
 Activity
 --------
-    The activity performed while wearing the device
+    The activity performed while wearing the device.  
 
 mean(Time_Body_Acceleration_mean_On_X_Axis),               mean(Time_Body_Acceleration_mean_On_Y_Axis),              
 mean(Time_Body_Acceleration_mean_On_Z_Axis),               mean(Time_Gravity_Acceleration_mean_On_X_Axis),           
@@ -76,4 +76,4 @@ mean(Frequency_Body_Acceleration_Mag_std),                 mean(Frequency_BodyBo
 mean(Frequency_BodyBody_Gyroscope_Mag_std),                mean(Frequency_BodyBody_Gyroscope_JerkMag_std)
 ---------------------------------------------------------------------------------------------------------
       
-      The aggregated means of the mean and stadard deviation measurements for the Subject/Activity
+      The aggregated means of the mean and stadard deviation measurements for the Subject/Activity.  See the README.txt and features_info.txt for further explanation of each measurment.
